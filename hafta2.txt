@@ -18,3 +18,30 @@ while True:
     trade(r)
 
 
+
+def betik(listem):
+    sayac=0
+    try:
+        while True:
+
+            x=listem[sayac]
+
+            sayac=sayac+1
+
+    except:
+        print(sayac)
+
+    return sayac
+
+def trade(deger):
+
+    if deger<20:
+        print('Lot Alimi Yapildi')
+    elif deger>80:
+        print('Lot Satimi Yapildi')
+    else:
+        print('Pozisyon Koru')
+
+
+
+
