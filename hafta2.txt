@@ -1,0 +1,20 @@
+from denem import *
+
+Diziler = [
+['ali','veli','hasan','cemal','sıla','damla'],
+['ali','veli','hasan','cemal'],
+['ali','veli'],
+['ali','veli','hasan','cemal','sıla','damla','mehmet','ahmet']]
+
+
+for i in Diziler:
+
+    rsi = int(betik(i))
+    trade(rsi)
+import random
+
+while True:
+    r = random.randint(1,100)
+    trade(r)
+
+
